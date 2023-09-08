@@ -27,11 +27,26 @@ GOOD LUCK 😀
 //     console.log(`no team wins because their scores are equal`)
 // }
 
-//BONOUS 1 
+// BONOUS 1 
 
-const teamDolphines = (96 + 108 + 89) / 3;
-const teamKoalas = (88 + 91 + 110)/ 3;
-console.log(teamDolphines, teamKoalas)
+// const teamDolphines = (97 + 112 + 101) / 3;
+// const teamKoalas = (109 + 95 + 123)/ 3;
+// console.log(teamDolphines, teamKoalas)
+
+// if (teamDolphines > teamKoalas && teamDolphines >= 100) {
+//     console.log(`Dolphines win the match`)
+// } else if (teamKoalas > teamDolphines && teamKoalas >= 100) {
+//     console.log(`Koalsa win the match`)
+// } else if (teamDolphines === teamKoalas && teamDolphines >= 100 && teamKoalas >= 100) {
+//     console.log(`There socres are equal`)
+// } else {
+//     console.log(`no team wins the match`)
+// }
+
+// BONUS 2
+
+const teamDolphines = (97 + 112 + 101) / 3;
+const teamKoalas = (109 + 95 + 106)/ 3;
 
 if (teamDolphines > teamKoalas && teamDolphines >= 100) {
     console.log(`Dolphines win the match`)
@@ -42,6 +57,3 @@ if (teamDolphines > teamKoalas && teamDolphines >= 100) {
 } else {
     console.log(`no team wins the match`)
 }
-
-// BONUS 2
-
