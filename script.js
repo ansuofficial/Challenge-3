@@ -16,16 +16,16 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 GOOD LUCK 😀
 */
 
-// const teamDolphines = (96 + 108 + 89) / 3;
-// const teamKoalas = (88 + 91 + 110) / 3;
+const teamDolphines = (96 + 108 + 89) / 3;
+const teamKoalas = (88 + 91 + 110) / 3;
 
-// if (teamDolphines > teamKoalas) {
-//     console.log(`Dolphines win the match`)
-// } else if (teamKoalas > teamDolphines) {
-//     console.log(`Koalsa win the match`)
-// } else if (teamDolphines === teamKoalas) {
-//     console.log(`no team wins because their scores are equal`)
-// }
+if (teamDolphines > teamKoalas) {
+    console.log(`Dolphines win the match`)
+} else if (teamKoalas > teamDolphines) {
+    console.log(`Koalsa win the match`)
+} else if (teamDolphines === teamKoalas) {
+    console.log(`no team wins because their scores are equal`)
+}
 
 //BONOUS 1 
 
